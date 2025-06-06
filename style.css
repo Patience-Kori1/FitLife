@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box; /* Pour que padding et border soit inclus dans les width*/
-    margin:0; /* Pour enlever les margin par défaut des naviguateurs*/
-    padding: 0; /* Pour enlever les margin par défaut des naviguateurs*/
+    box-sizing: border-box; 
+    margin:0; 
+    padding: 0; 
 }
 
 a {
@@ -11,7 +11,6 @@ a {
 
 body {
     background-color:#1907dc;
-    /* height: 100%; */
     font-family: 'Inter', sans-serif;
     background-color: #f8f8f8;
     color: #333;
@@ -23,8 +22,7 @@ body {
 
 .container {
     background-color: #dd0d0d; 
-    width: 98%; /* Pour qu'il ne touche pas les bords aussi avec l'aide de margin auto*/
-    /* height: 100%; */
+    width: 98%; 
     margin: auto;
     padding: 0 1rem;
 }
@@ -32,48 +30,48 @@ body {
 .header {
     background-color: #a6a9a8;
     width: 100%;
-    height: 10vh;
     display: flex;
     align-items: center;
-    /* flex-direction: row; */
     border: 3px solid black;
+    /* overflow: hidden; */
+    /* flex-wrap: wrap ; */
 }
 
 .hdr_a {
-    background-color: #427d52;
-    height: 100%;
+    /* background-color: #427d52; */
     width: 30%;
 }
+
 .hdr_a img {
     /* background-color: #427d52; */
-    height: 100%;
+    height: 2rem;
     /* width: 30%; */
 }
+
 .hdr_b {
-    background-color: #e4f16d;
+    /* background-color: #e4f16d; */
     width: 70%;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* flex-wrap: wrap; */
-    /* gap:1rem */
+    flex-wrap: wrap;  
     
 }
+
  .hdr_b div {
-    flex: 1 ;
-    /* margin: 1rem; */
-    background-color: #e76ac8;
+    /* background-color: #e76ac8; */
+    max-height: 100%;
+    /* max-width: 100%; */
  }
 .hdr_b a {
-    /* display: block; */
-    /* background-color: #8f86a8; */
-    width: 10rem;
+    background-color: #8f86a8;
     text-align: center;
     padding: 0.75rem 1.5rem;
     color: #fff;
-    flex: 1 ;
+    
 }
+
 .connexion {
     border-radius: 25px;
     background-color: #3CB371 ;
@@ -82,9 +80,7 @@ body {
 .nav {
     background-color: #a6a9a8;
     width: 100%;
-    height: 50vh;
     display: flex;
-    /* flex-direction: row; */
     border: 3px solid rgb(163, 5, 5);
     
 }
@@ -96,9 +92,13 @@ body {
     justify-content: space-around;
 }
 .nav_1 h1, p, a {
-    max-width: 100%;
+    max-width: fit-content;
     max-height: 100%;
 }
+.nav_1 p {
+    max-width: fit-content;
+}
+
 .nav_2 {
     width: 50%;
 }
@@ -120,7 +120,7 @@ body {
     width: 100%;
     height: 190vh;
     display: flex;
-    /* flex-direction: column; */
+    
 }
 
 .principal {
@@ -137,7 +137,7 @@ body {
 .footer {
     background-color: #454242;
     width: 100%;
-    height: 10vh;
+    /* height: 10vh; */
     display: flex;
     justify-content: space-around;
 }
