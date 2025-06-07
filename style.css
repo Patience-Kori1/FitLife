@@ -28,31 +28,34 @@ body {
 }
 
 .header {
-    background-color: #a6a9a8;
+    /* background-color: #a6a9a8; */
     width: 100%;
     height: 10vh;
     display: flex;
     /* align-items: center; */
     border: 3px solid black;
-    /* gap: 2rem; */
+    gap: 30%;
     /* overflow: hidden; */
     /* flex-wrap: wrap ; */
 }
 
-.hdr_a {
-    flex:2; /* Je pourrai les remplacer si besoin par des width en % si besoin*/
+.logo_header {
+    /*flex:1;  Je pourrais les remplacer si besoin par des width en % si besoin
     /* width: 30%; */
     background-color: #350ba7;
 }
 
-.hdr_b {
-    flex:4;/* Je pourrai les remplacer si besoin par des width en % si besoin*/
+.desktop_menu {
+    flex:4; /*Je pourrai les remplacer si besoin par des width en % si besoin*/
     background-color: #46c346;
     /* width: 70%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hdr_a img {
-    width: 10%;
+    width: 50%;
     height: 100%;
 }
 
