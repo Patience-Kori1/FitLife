@@ -116,14 +116,17 @@ body {
 
 .nav_1 h1 {
     /* background-color: #f8fafc; */
-    font-size:xxx-large;
-    font-weight:900;
+    font-size:300%;
+    font-weight:750;
     text-align:start;
+    line-height: 130%;
 }
 
 .nav_1 p {
      /* background-color: #f8fafc; */
      color: grey;
+     line-height: 180%;
+     font-size:large;
 }
 .nav_1 div {
     display: flex;
@@ -158,32 +161,65 @@ body {
     height: 100%;
     border-radius: 1.5rem;
 }
-.nav_button {
-    width: 15rem;
-    text-align: center;
-    padding: 0.75rem 1.5rem;
-    color: #fff;
-    background-color: #3CB371 ;
-    border-radius: 25px;
-}
+
 
 .main {
-    background-color: #fff;
+    /* background-color: #7f5a5a; */
     width: 100%;
-    height: 190vh;
+    /* height: 190vh; */
     display: flex;
-    
+    flex-direction: column;
 }
 
-.principal {
+.section1 {
     background-color: #ee9595;
-    height: 100%;
+    /* height: 100%; */
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 4% 10%;
+}
+
+.section1 h1 {
+    /* background-color : #67aeb0; */
+    font-size: 250%;
+    font-weight: 700;
+}
+
+.programmes {
+    display: flex;
+    background-color: #fabc6a;
+    justify-content: space-around;
+    gap: 3%;
+}
+
+.programmes div {
+    background-color: #86e8e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 2%;
+}
+.programmes div img {
+    border-radius: 50%;
+}
+.programmes div p {
+    text-align: center;
+}
+
+.section2 {
+    background-color: #8470b0;
+    height: 500vh;
     width: 100%;
 }
-.sidebar {
-    background-color: #8470b0;
+
+
+.section3 {
+    background-color: #c1f297;
     height: 100%;
-    width: 50%;
+    width: 100%;
 }
 
 .footer {
