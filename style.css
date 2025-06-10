@@ -71,7 +71,7 @@ body {
 }
 .header li a {
     /* background-color:#fabc6a; */
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 1.5rem;
     font-size: larger;
 }
 .desktop_menu a {
@@ -102,7 +102,7 @@ body {
     background-color:#ddf0ed;
     width: 100%;
     display: flex;
-    padding: 4% 10%;
+    padding: 5% 10%;
 }
 .nav_1 {
     display: flex;
@@ -172,13 +172,13 @@ body {
 }
 
 .section1 {
-    background-color: #ee9595;
+    background-color: white;
     /* height: 100%; */
     /* width: 50%; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 4% 10%;
 }
 
@@ -187,26 +187,34 @@ body {
     font-size: 250%;
     font-weight: 700;
 }
+.section1 > p {
+    color:grey;
+}
 
 .programmes {
     display: flex;
-    background-color: #fabc6a;
+    /* background-color: #fabc6a; */
     justify-content: space-around;
     gap: 3%;
+
 }
 
 .programmes div {
-    background-color: #86e8e2;
+    background-color: #f3f6f6;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5% 2%;
+    margin: 2.5% 0;
+    gap:1.7rem;
+    border: 1px dashed blue;
 }
 .programmes div img {
     border-radius: 50%;
 }
 .programmes div p {
     text-align: center;
+    color: grey ;
 }
 
 .section2 {
