@@ -10,9 +10,9 @@ a {
 }
 
 body {
-    background-color:#1907dc;
+    /* background-color:#bcb9db; */
     font-family: 'Inter', sans-serif;
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
     color: #333;
     line-height: 1.6;
     font-size: 16px;
@@ -21,40 +21,72 @@ body {
 }
 
 .container {
-    background-color: #dd0d0d; 
+    /* background-color: #dd0d0d;  */
     width: 98%; 
     margin: auto;
     padding: 0 1rem;
 }
 
 .header {
+    /* background-color: #e8b8d4; */
     width: 100%;
     display: flex;
-    border: 3px solid black;
+    border: 3px solid rgb(56, 15, 114);
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
-.logo_header {
-    
-    width: 5%;
-    background-color: #350ba7;
-}
-.div_header0 {
-    background-color: #4a1a1a;
-    width: 30%;
-}
-.desktop_menu {
-    background-color: #46c346;
-    width: 70%;
+.header_logo {
+    /* background-color: #fabc6a; */
+    flex:2;
     display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+}
+.header_logo a {
+    /* background-color:#fabc6a; */
+    color:#2563eb ;
+    font-size: xx-large;
+    font-weight:900;
+}
+
+.img_logo { 
+    width: 3rem;
+}
+
+.desktop_menu {
+    /* background-color: #c7d575; */
+    flex:6;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1rem;
+    flex-wrap:wrap ;
+    /* background-color: #46c346; */
+    /* width: 70%; */
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap; 
-    gap: 1rem;
+    gap: 1rem; */
 }
 
-.desktop_menu li {
+
+ .header li {
     list-style: none;
 }
+.header li a {
+    /* background-color:#fabc6a; */
+    padding: 0.5rem 1.5rem;
+    font-size: larger;
+}
+.desktop_menu a {
+    color: black;
+}
+
+
+/*
 .desktop_menu li a {
     background-color: #d64141;
     color: white;
@@ -63,14 +95,29 @@ body {
     font-size: larger;
     font-weight:700;
     
-}
-.connexion {
+} */
+/* .connexion {
     border-radius: 25px; 
+} */
+
+.header_connexion {
+    /* background-color: #86e8e2; */
+    flex:2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
 }
 
-.hdr_a img {
-    width: 50%;
-    max-height: 2rem;
+.header_connexion a {
+    color: white;
+    border-radius: 1.5rem;
+}
+.header .button_connexion {
+    background-color:#2563eb;
+}
+.header .button_registration {
+    background-color:#10b981;
 }
 
 .nav {
