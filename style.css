@@ -162,7 +162,7 @@ body {
     border-radius: 1.5rem;
 }
 
-
+/*************************************************** Main ***********************************/
 .main {
     /* background-color: #7f5a5a; */
     width: 100%;
@@ -171,6 +171,7 @@ body {
     flex-direction: column;
 }
 
+/****** Section 1 concernant les Programmes exclusifs ******/
 .section1 {
     background-color: white;
     /* height: 100%; */
@@ -180,8 +181,8 @@ body {
     align-items: center;
     gap: 1.5rem;
     padding: 4% 10%;
+    border: 1px dashed blue; /* Juste pour le visuel en attendant*/
 }
-
 .section1 h1 {
     /* background-color : #67aeb0; */
     font-size: 250%;
@@ -190,7 +191,6 @@ body {
 .section1 > p {
     color:grey;
 }
-
 .programmes {
     display: flex;
     /* background-color: #fabc6a; */
@@ -198,7 +198,6 @@ body {
     gap: 3%;
 
 }
-
 .programmes div {
     background-color: #f3f6f6;
     display: flex;
@@ -208,6 +207,8 @@ body {
     margin: 2.5% 0;
     gap:1.7rem;
     border: 1px dashed blue;
+    border-radius: 1.5rem;
+    flex:1;
 }
 .programmes div img {
     border-radius: 50%;
@@ -217,14 +218,43 @@ body {
     color: grey ;
 }
 
+/****** Section 2 concernant la confiance ******/
 .section2 {
+    background-color: #c1f297;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    border: 1px dashed rgb(238, 15, 15); /* Juste pour le visuel en attendant*/
+    padding: 4% 10%;
+}
+
+.temoignages {
+    background-color:#86e8e2;
+    display: flex;
+    /* flex: 1; */
+    gap: 1%; /*normalement 3 % je met 1 en attendant pour le visuel*/
+
+}
+
+.temoin {
+    background-color: #c7d575;
+    display: flex;
+    flex-direction: column;
+}
+
+.profil {
+    display: flex;
+    background-color: #fff;
+}
+.section3 {
     background-color: #8470b0;
     height: 500vh;
     width: 100%;
 }
 
 
-.section3 {
+.section4 {
     background-color: #c1f297;
     height: 100%;
     width: 100%;
