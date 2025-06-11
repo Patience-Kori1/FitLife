@@ -226,32 +226,52 @@ body {
     align-items: center;
     gap: 1.5rem;
     border: 1px dashed rgb(238, 15, 15); /* Juste pour le visuel en attendant*/
-    padding: 4% 10%;
+    padding: 6% 10%;
 }
-
+.section2 > h1 {
+    font-size: 250%;
+    font-weight: 700;
+}
+.section2 > p {
+    color:grey;
+}
 .temoignages {
     background-color:#86e8e2;
     display: flex;
-    /* flex: 1; */
-    gap: 1%; /*normalement 3 % je met 1 en attendant pour le visuel*/
+    gap: 3%; /*normalement 3 % je met 1 en attendant pour le visuel*/
 
 }
-
 .temoin {
     background-color: #c7d575;
     display: flex;
     flex-direction: column;
+    flex: 1; /* Pour que chaque bloc prenne une part et qu'ils soient ainsi égaux*/
+    padding: 2.5% 2%;
+    gap:1.5rem;
+    margin:3% 0 0 0;
+}
+.temoin > p {
+    background-color: #e7a4e7;
 }
 
 .profil {
     display: flex;
+    background-color: #e68181;
+    gap: 1rem;
+    align-items: center;
+}
+.profil img {
     background-color: #fff;
+}
+.profil div {
+    background-color: #7074a5;
 }
 .section3 {
     background-color: #8470b0;
     height: 500vh;
     width: 100%;
 }
+
 
 
 .section4 {
