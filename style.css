@@ -4,29 +4,28 @@
     padding: 0; 
 }
 
+body {
+    /* background-color:#bcb9db; */
+    font-family: 'Inter', sans-serif;
+    color: #333; /**/
+    line-height: 1.6;/**/
+    font-size: 16px;/**/
+    max-width: 100vw;/**/
+    overflow-x: hidden;/**/
+}
+
+.container {
+    /* background-color: #dd0d0d;  */
+    margin: auto;/**/
+    /* padding: 0 1rem; */
+}
+
 a {
     text-decoration: none;
     
 }
 
-body {
-    /* background-color:#bcb9db; */
-    font-family: 'Inter', sans-serif;
-    /* background-color: #f8f8f8; */
-    color: #333;
-    line-height: 1.6;
-    font-size: 16px;
-    max-width: 100vw;
-    overflow-x: hidden;
-}
-
-.container {
-    /* background-color: #dd0d0d;  */
-    /* width: 85%;  */
-    margin: auto;
-    /* padding: 0 1rem; */
-}
-
+/*************************************************** HEADER ***********************************/
 .header {
     /* background-color: #e8b8d4; */
     /* width: 85%; */
@@ -36,7 +35,7 @@ body {
     flex-wrap: wrap;
     padding: 1% 10%;
 }
-
+/****** Logo ******/
 .header_logo {
     /* background-color: #fabc6a; */
     flex:2;
@@ -51,11 +50,11 @@ body {
     font-size: xx-large;
     font-weight:900;
 }
-
 .img_logo { 
     width: 3rem;
 }
 
+/****** Desktop Menu ******/
 .desktop_menu {
     /* background-color: #c7d575; */
     flex:6;
@@ -65,7 +64,6 @@ body {
     gap: 1rem;
     flex-wrap:wrap ;
 }
-
 .header li {
     list-style: none;
 }
@@ -78,15 +76,14 @@ body {
     color: black;
 }
 
+/****** Connexion / Inscription ******/
 .header_connexion {
-    /* background-color: #86e8e2; */
     flex:2;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 1rem;
 }
-
 .header_connexion a {
     color: white;
     border-radius: 1.5rem;
@@ -98,22 +95,21 @@ body {
     background-color:#10b981;
 }
 
+/*************************************************** NAV ***********************************/
 .nav {
     background-color:#ddf0ed;
     width: 100%;
     display: flex;
     padding: 5% 10%;
 }
+/****** Nav 1 Textuel ******/
 .nav_1 {
     display: flex;
     flex-direction: column;
     width: 50%;
-    align-items: center;
-    justify-content: space-around;
     padding: 0 5%;
     gap: 3rem;
 }
-
 .nav_1 h1 {
     /* background-color: #f8fafc; */
     font-size:300%;
@@ -121,29 +117,23 @@ body {
     text-align:start;
     line-height: 130%;
 }
-
 .nav_1 p {
-     /* background-color: #f8fafc; */
-     color: grey;
+     color: #94a3b8;
      line-height: 180%;
      font-size:large;
 }
 .nav_1 div {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content:space-around; */
     gap:1rem;
 }
-
 .nav_1 div a {
     text-align: center;
     padding: 0.5rem;
     color: white;
     border-radius: 1.5rem;
-    /* width: 15rem; */
     font-size: larger;
 }
-
 .button_commencer {
     background-color:#10b981;
 }
@@ -151,45 +141,39 @@ body {
     background-color:#2563eb;
 }
 
+/****** Nav 2 Image ******/
 .nav_2 {
     width: 50%;
     padding: 0 3%;
 }
-
 .img_nav {
     width: 100%;
     height: 100%;
     border-radius: 1.5rem;
 }
 
-/*************************************************** Main ***********************************/
+/*************************************************** MAIN ***********************************/
 .main {
-    /* background-color: #7f5a5a; */
     width: 100%;
-    /* height: 190vh; */
     display: flex;
     flex-direction: column;
 }
 
-/****** Section 1 concernant les Programmes exclusifs ******/
+/****** Section 1 : Programmes exclusifs ******/
 .section1 {
     background-color: white;
-    /* height: 100%; */
-    /* width: 50%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
     padding: 4% 10%;
-    border: 1px dashed blue; /* Juste pour le visuel en attendant*/
 }
 .section1 h1 {
-    /* background-color : #67aeb0; */
     font-size: 250%;
     font-weight: 700;
 }
 .section1 > p {
-    color:grey;
+    color:#94a3b8;
 }
 .programmes {
     display: flex;
@@ -215,17 +199,16 @@ body {
 }
 .programmes div p {
     text-align: center;
-    color: grey ;
+    color: #94a3b8 ;
 }
 
-/****** Section 2 concernant la confiance ******/
+/****** Section 2 : Témoignages de confiances ******/
 .section2 {
-    background-color: #c1f297;
+    background-color: #f1f5f9;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-    border: 1px dashed rgb(238, 15, 15); /* Juste pour le visuel en attendant*/
     padding: 6% 10%;
 }
 .section2 > h1 {
@@ -233,46 +216,39 @@ body {
     font-weight: 700;
 }
 .section2 > p {
-    color:grey;
+    color:#94a3b8;
 }
 .temoignages {
-    background-color:#86e8e2;
+    /* background-color:#86e8e2; */
     display: flex;
-    gap: 3%; /*normalement 3 % je met 1 en attendant pour le visuel*/
-
+    gap: 3%; 
 }
 .temoin {
-    background-color: #c7d575;
+    background-color: white;
     display: flex;
     flex-direction: column;
     flex: 1; /* Pour que chaque bloc prenne une part et qu'ils soient ainsi égaux*/
     padding: 2.5% 2%;
     gap:1.5rem;
     margin:3% 0 0 0;
+    border-radius: 1rem;
 }
-.temoin > p {
-    background-color: #e7a4e7;
-}
-
 .profil {
     display: flex;
-    background-color: #e68181;
     gap: 1rem;
     align-items: center;
 }
-.profil img {
-    background-color: #fff;
+.profil p {
+    color: #94a3b8;
+    font-size: 0.9rem;
 }
-.profil div {
-    background-color: #7074a5;
-}
+
+
 .section3 {
     background-color: #8470b0;
     height: 500vh;
     width: 100%;
 }
-
-
 
 .section4 {
     background-color: #c1f297;
@@ -280,19 +256,12 @@ body {
     width: 100%;
 }
 
+/*************************************************** FOOTER ***********************************/
 .footer {
     background-color: #454242;
-    /* width: 100%; */
-    /* height: 10vh; */
     display: flex;
     justify-content: space-around;
-    /* gap: 1em; */
 }
-
 .footer div {
-    /* height: 2rem; */
     background-color: #a2c74d;
-    /* width: 5rem; */
-    /* margin: 1rem; */
-    /* flex: 1; */
  }
