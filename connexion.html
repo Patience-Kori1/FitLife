@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion FitLife</title>
+    <link rel="stylesheet" href="connexion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
     <div class="container">
 
         <!-- HEADER -->
-        <header></header>
+         <header class="header">
+            <!-- Logo -->
+            <div class="header_logo">
+                <img class="img_logo"src="/IMAGE/logo_fitness.avif" alt="">
+                <a href=""><p>FitLife</p></a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <ul class="desktop_menu">
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Programme</a></li>
+                <li><a href="">A propos</a></li>
+                <li><a href="">Contact</a></li> 
+            </ul>
+
+            <!-- Connexion / Inscription -->
+            <ul class="header_connexion">
+                <li><a class="button_connexion" href="connexion.html">Connexion</a></li>
+                <li><a class="button_registration" href=""> Inscription</a></li>
+            </ul>   
+        </header>
 
         <!-- MAIN -->
         <main>
@@ -21,7 +42,7 @@
                 </div>
                 <div class="textuel">
                     <div class="logo_footer">
-                        <a href=""><i class="fas fa-dumbbell"></i>
+                        <a href="index.html"><i class="fas fa-dumbbell"></i>
                         <span>FitLife</span></a>
                     </div>
                     <div class="accueil">
@@ -50,7 +71,34 @@
         </main>
 
         <!-- Footer -->
-        <footer></footer>
+        <footer class="footer">
+            <div class="container_Footer">
+                <div class="footer1">   
+                    <div class="social_network">
+                        <div class="logo_footer">
+                            <a href=""><i class="fas fa-dumbbell"></i>
+                            <span>FitLife</span></a>
+                        </div>
+                        <p>Votre partenaire fitness pour une transformation durable et efficace.</p>
+                        <div class="social_links">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts">
+                        <h3>Contact</h3>
+                        <div>
+                            <p><i class="fas fa-map-marker-alt"></i>      115 rue du FitLife, Bègles</p>
+                            <p><i class="fas fa-phone"></i>      07 07 07 07 07</p>
+                            <p><i class="fas fa-envelope"></i>      fitlife@begles.fr</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="cgu">© 2025 FitLife. Tous droits réservés.</p>
+            </div>
+        </footer>
     </div>
     
 </body>
