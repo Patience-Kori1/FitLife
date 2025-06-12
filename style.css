@@ -5,7 +5,6 @@
 }
 
 body {
-    /* background-color:#bcb9db; */
     font-family: 'Inter', sans-serif;
     color: #333; /**/
     line-height: 1.6;/**/
@@ -15,9 +14,7 @@ body {
 }
 
 .container {
-    /* background-color: #dd0d0d;  */
     margin: auto;/**/
-    /* padding: 0 1rem; */
 }
 
 a {
@@ -26,31 +23,28 @@ a {
 
 /*************************************************** HEADER ***********************************/
 .header {
-    /* background-color: #e8b8d4; */
-    /* width: 85%; */
     display: flex;
-    /* border: 3px solid rgb(56, 15, 114); */
     gap: 1rem;
     flex-wrap: wrap;
     padding: 1% 10%;
 }
 /****** Logo ******/
-.header_logo {
-    /* background-color: #fabc6a; */
+.logo_header {
     flex:2;
     display: flex;
     justify-content: center;
     gap: 0.5rem;
     align-items: center;
 }
-.header_logo a {
-    /* background-color:#fabc6a; */
-    color:#2563eb ;
-    font-size: xx-large;
-    font-weight:900;
+.logo_header i {
+    font-size: 1.75rem;
+    color:#10b981;
 }
-.img_logo { 
-    width: 3rem;
+
+.logo_header span {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color:#2563eb;
 }
 
 /****** Desktop Menu ******/
@@ -276,7 +270,6 @@ a {
    background-color: #1e293b; 
 }
 .container_Footer {
-    /* background-color: #fabc6a; */
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -284,13 +277,11 @@ a {
 }
 .footer1 {
     display: flex;
-    /* background-color: #fff; */
     gap: 10%;
     border-bottom: 1px solid white;
     padding-bottom: 5%;
 }
 .social_network {
-    /* background-color: #9ea1be; */
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -305,17 +296,14 @@ a {
     font-size: 1.75rem;
     color:#10b981;
 }
-
 .logo_footer span {
     font-size: 1.75rem;
     font-weight: 800;
     color:#2563eb;
 }
 .social_links {
-    /* background-color: #cfe35d; */
     display: flex;
     gap: 40%;
-    /* align-items:center; */
 }
 .social_links a {
     flex: 1;
@@ -325,7 +313,6 @@ a {
 }
 
 .contacts {
-    /* background-color: #c7d575; */
     flex: 1;
     padding: 5% 25% 5% 0%;
     display: flex;
@@ -343,7 +330,6 @@ a {
     font-size: 1.5rem;
 }
 .cgu {
-    /* border-color: #edb49a; */
     text-align: center;
     color: #94a3b8;
 }

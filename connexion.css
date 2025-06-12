@@ -35,22 +35,22 @@ a {
     padding: 1% 10%;
 }
 /****** Logo ******/
-.header_logo {
-    /* background-color: #fabc6a; */
+.logo_header {
     flex:2;
     display: flex;
     justify-content: center;
     gap: 0.5rem;
     align-items: center;
 }
-.header_logo a {
-    /* background-color:#fabc6a; */
-    color:#2563eb ;
-    font-size: xx-large;
-    font-weight:900;
+.logo_header i {
+    font-size: 1.75rem;
+    color:#10b981;
 }
-.img_logo { 
-    width: 3rem;
+
+.logo_header span {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color:#2563eb;
 }
 
 /****** Desktop Menu ******/
@@ -94,8 +94,23 @@ a {
     background-color:#10b981;
 }
 
+/*************************************************** MAIN *************************************/
+.container_main {
+    background-color: #fabc6a;
+    display: flex;
+    gap: 1.5rem;
+    padding: 4% 10%;
+}
 
+/****** PARTIE IMAGE ******/
+.image {
+    background-color: #c7d575;
+}
 
+/****** PARTIE TEXTUELLE ******/
+.textuel {
+    background-color:#86e8e2;
+}
 
 
 
