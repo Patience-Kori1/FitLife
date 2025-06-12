@@ -40,11 +40,17 @@ a {
     font-size: 1.75rem;
     color:#10b981;
 }
+.logo_header i:hover {
+    color:#2563eb;
+}
 
 .logo_header span {
     font-size: 1.75rem;
     font-weight: 800;
     color:#2563eb;
+}
+.logo_header span:hover {
+    color:#10b981;
 }
 
 /****** Desktop Menu ******/
@@ -65,6 +71,11 @@ a {
     padding: 1rem 1.5rem;
     font-size: larger;
 }
+
+.desktop_menu li a:hover {
+    color:#2563eb;
+    font-size: x-large;
+}
 .desktop_menu a {
     color: black;
 }
@@ -84,10 +95,15 @@ a {
 .header .button_connexion {
     background-color:#2563eb;
 }
+.header .button_connexion:hover {
+    color:#10b981;
+}
 .header .button_registration {
     background-color:#10b981;
 }
-
+.header .button_registration:hover {
+    color:#2563eb;
+}
 /*************************************************** NAV ***********************************/
 .nav {
     background-color:#ddf0ed;
@@ -138,6 +154,7 @@ a {
 .nav_2 {
     width: 50%;
     padding: 0 3%;
+    height: 100%;
 }
 .img_nav {
     width: 100%;
