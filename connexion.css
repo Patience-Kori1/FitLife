@@ -23,16 +23,6 @@ body {
 a {
     text-decoration: none;   
 }
-
-
-/*************************************************** HEADER ***********************************/
-.header {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    padding: 1% 10%;
-}
-
 .logo {
     flex:2;
     display: flex;
@@ -55,6 +45,14 @@ a {
 }
 .logo span:hover {
     color:#10b981;
+}
+
+/*************************************************** HEADER ***********************************/
+.header {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1% 10%;
 }
 
 /****** Desktop Menu ******/
