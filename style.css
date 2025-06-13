@@ -21,6 +21,30 @@ a {
     text-decoration: none;   
 }
 
+/****** Logo ******/
+.logo {
+    flex:2;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+}
+.logo i {
+    font-size: 1.75rem;
+    color:#10b981;
+}
+.logo i:hover {
+    color:#2563eb;
+}
+
+.logo span {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color:#2563eb;
+}
+.logo span:hover {
+    color:#10b981;
+}
 /*************************************************** HEADER ***********************************/
 .header {
     display: flex;
@@ -28,30 +52,7 @@ a {
     flex-wrap: wrap;
     padding: 1% 10%;
 }
-/****** Logo ******/
-.logo_header {
-    flex:2;
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    align-items: center;
-}
-.logo_header i {
-    font-size: 1.75rem;
-    color:#10b981;
-}
-.logo_header i:hover {
-    color:#2563eb;
-}
 
-.logo_header span {
-    font-size: 1.75rem;
-    font-weight: 800;
-    color:#2563eb;
-}
-.logo_header span:hover {
-    color:#10b981;
-}
 
 /****** Desktop Menu ******/
 .desktop_menu {

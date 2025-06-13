@@ -24,6 +24,7 @@ a {
     text-decoration: none;   
 }
 
+
 /*************************************************** HEADER ***********************************/
 .header {
     display: flex;
@@ -31,34 +32,33 @@ a {
     flex-wrap: wrap;
     padding: 1% 10%;
 }
-/****** Logo ******/
-.logo_header {
+
+.logo {
     flex:2;
     display: flex;
     justify-content: center;
     gap: 0.5rem;
     align-items: center;
 }
-.logo_header i {
+.logo i {
     font-size: 1.75rem;
     color:#10b981;
 }
-.logo_header i:hover {
+.logo i:hover {
     color:#2563eb;
 }
 
-.logo_header span {
+.logo span {
     font-size: 1.75rem;
     font-weight: 800;
     color:#2563eb;
 }
-.logo_header span:hover {
+.logo span:hover {
     color:#10b981;
 }
 
 /****** Desktop Menu ******/
 .desktop_menu {
-    /* background-color: #c7d575; */
     flex:6;
     display: flex;
     align-items: center;
@@ -188,16 +188,7 @@ a {
 .social_network p {
     color: white;
 }
-.logo_footer i {
-    font-size: 1.75rem;
-    color:#10b981;
-}
 
-.logo_footer span {
-    font-size: 1.75rem;
-    font-weight: 800;
-    color:#2563eb;
-}
 .social_links {
     /* background-color: #cfe35d; */
     display: flex;
