@@ -117,21 +117,29 @@ a {
 /****** PARTIE IMAGE ******/
 .image {
     /* background-color: #c7d575; */
-    flex:2;
-    background: no-repeat center/100% url(/IMAGE/image_formulaire.jpg);
-    height: 80vh;
+    width: 40%;
+    position: relative;
+    /* background: no-repeat center/100% url(/IMAGE/image_formulaire.jpg); */
+    /* height: 80vh; */
     
+}
+.image img {
+    width: 100%;
+    height: 100%;
 }
 
 .image h1 {
     color: white;
     text-align: center;
+    position: absolute;
+    top: 2.5rem;
+    left: 6rem
 }
 
 /****** PARTIE TEXTUELLE ******/
 .textuel {
     background-color:#86e8e2;
-    flex:3;
+    width: 60%;
     display: flex;
     flex-direction: column;
     padding: 5rem;
@@ -139,14 +147,20 @@ a {
 }
 .container_textuel {
     background-color: #f5df66;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     padding: 5% 20%;
+}
+.accueil{
+    display: flex;
+    flex-direction: column;
 }
 
 .accueil h1 {
     font-size: 250%;
     font-weight: 700;
+    max-width: 100%;
 }
 
 .accueil p {
