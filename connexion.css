@@ -105,6 +105,7 @@ a {
 .header .button_registration:hover {
     color:#2563eb;
 }
+
 /*************************************************** MAIN *************************************/
 .container_main {
     /* background-color: #fabc6a; */
@@ -135,6 +136,12 @@ a {
     flex-direction: column;
     padding: 5rem;
     gap: 2rem;
+}
+.container_textuel {
+    background-color: #f5df66;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 20%;
 }
 
 .accueil h1 {
