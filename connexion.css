@@ -126,6 +126,8 @@ a {
 .image img {
     width: 100%;
     height: 100%;
+    text-shadow: 5px 0px 8px blue;
+    opacity: 0.61;
 }
 
 .image h1 {
@@ -133,7 +135,9 @@ a {
     text-align: center;
     position: absolute;
     top: 2.5rem;
-    left: 6rem
+    left: 6rem;
+    text-shadow: 5px 0px 2px blue;
+
 }
 
 /****** PARTIE TEXTUELLE ******/
